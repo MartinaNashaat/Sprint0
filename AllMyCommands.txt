@@ -1,0 +1,20 @@
+git init
+git add *.txt
+git status
+git rm --cached "Section 3.1.txt"
+git status
+git add "Section 3.1.txt"
+git status
+git commit
+git remote add Sprint0 https://github.com/MartinaNashaat/Sprint0.git
+git push -u Sprint0 master
+git branch ReadMe
+git checkout ReadMe
+git add README.md
+git status
+git commit -m "A new branch called ReadMe created with a file called README"
+git checkout master
+git merge ReadMe
+git push Sprint0 ReadME
+git add AllMyCommands.txt
+git commit-m "Add AllMyCommands file"
